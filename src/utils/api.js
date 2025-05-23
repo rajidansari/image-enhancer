@@ -1,6 +1,5 @@
 import axios from "axios";
 
-const API_KEY = "wxajtkk86min4f3n7";
 
 export const enhanceApiService = async (file) => {
     try {
