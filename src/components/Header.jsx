@@ -11,8 +11,11 @@ const Header = () => {
         <a className='text-white hover:text-blue-100 transition-colors duration-200 text-sm sm:text-base font-medium cursor-pointer'>
           About
         </a>
-        <a className='bg-white text-blue-600 px-4 py-2 rounded-full hover:bg-blue-50 transition-colors duration-200 text-sm sm:text-base font-medium cursor-pointer'>
-          Contact Us
+        <a
+        href='https://github.com/rajidansari/image-enhancer'
+        target='_blank'
+        className='bg-white text-blue-600 px-4 py-2 rounded-full hover:bg-blue-100 transition-colors duration-200 text-sm sm:text-base font-medium cursor-pointer'>
+          GitHub
         </a>
       </nav>
     </header>
